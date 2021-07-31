@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+pandas
+xgboost==1.4.2
+scikit-learn==0.23.2
