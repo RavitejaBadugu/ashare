@@ -1,0 +1,4 @@
+build:
+  docker:
+    fastapi: fastapi/Dockerfile
+    streamlit: streamlit/Dockerfile
