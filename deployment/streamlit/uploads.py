@@ -29,8 +29,14 @@ def app():
     for col in numerical_columns:
         enter=st.text_input(f'fill the value of {col}')
         if enter:
-            data[col]=enter
-
+            try:
+                requried_dtype=df.loc[df['name']==col,'dtype'].values[0]
+                if requried_dtype=='float':
+                    data[col]=float(enter)
+                elif requried_dtype=='int':
+                    data[col]=int(enter)
+            except:
+                st.error(f"enter correct dtype")
     if st.button('submit'):
         count=0
         for col in requried_columns:
@@ -43,4 +49,4 @@ def app():
                 reading=response['meter_reading']
                 if reading<0:
                     reading=0
-                st.success(f"meter reading is {reading}")
+                st.success(f"meter reading is {reading} kWh")

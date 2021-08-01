@@ -6,7 +6,6 @@ def app():
     st.title('Below table shows the name of the field and type which it expects.')
     df=pd.read_csv('data_schema.csv')
     st.dataframe(df)
-
     st.write(
     '''
 
