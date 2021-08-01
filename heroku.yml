@@ -1,4 +1,4 @@
 build:
   docker:
-    fastapi: deployment/fastapi/Dockerfile
-    streamlit: deployment/streamlit/Dockerfile
+    web: deployment/fastapi/Dockerfile
+    web: deployment/streamlit/Dockerfile
