@@ -39,7 +39,7 @@ def app():
                 count+=1
         if count == 0:
             with st.spinner(text='In progress'):
-                response=requests.post('http://fastapi:8000/predict',json=data).json()
+                response=requests.post('http://localhost:8000/predict',json=data).json()
                 reading=response['meter_reading']
                 if reading<0:
                     reading=0

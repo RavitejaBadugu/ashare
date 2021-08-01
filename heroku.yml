@@ -1,4 +1,0 @@
-build:
-  docker:
-    web: deployment/fastapi/Dockerfile
-    web: deployment/streamlit/Dockerfile
