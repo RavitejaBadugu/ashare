@@ -21,17 +21,24 @@ To run the code: Run this command::  docker compose up -d --build.
 
 After using it to remove the containers type:: docker compose down.
 
-"The main page of app:"
-
+# The main page of app:
 ![Alt text](/images/homepage.png?raw=true)
 
-![Alt text](/images/side_bar.png?raw=true "sidebar")
 
-![Alt text](/images/info_page.png?raw=true "info_page")
+# sidebar
+![Alt text](/images/side_bar.png?raw=true)
 
-![Alt text](/images/upload_page.png?raw=true "uploads_page")
 
-![Alt text](/images/result_shown.png?raw=true "example of result")
+# info_page
+![Alt text](/images/info_page.png?raw=true)
+
+
+# uploads_page
+![Alt text](/images/upload_page.png?raw=true )
+
+
+# example of result
+![Alt text](/images/result_shown.png?raw=true)
 
 
 
