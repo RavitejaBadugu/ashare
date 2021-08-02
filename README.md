@@ -21,8 +21,9 @@ To run the code: Run this command::  docker compose up -d --build.
 
 After using it to remove the containers type:: docker compose down.
 
+The main page of app:
 
-![Alt text](ashare_prediction\images\homepage.png?raw=true "The main page of app:")
+![Screenshot](ashare_prediction\images\homepage.png )
 
 ![Alt text](ashare_prediction\images\side_bar.png?raw=true "sidebar")
 
