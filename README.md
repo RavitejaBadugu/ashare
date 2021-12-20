@@ -7,6 +7,11 @@ components.
 
 In inferashare.ipynb you will find submission to kaggle.
 
+The metric used is **Root Mean Squared Logarithmic Error.** 
+
+* My score for the competition is ::
+![Alt text](https://github.com/RavitejaBadugu/ashare/blob/main/images/Screenshot%202021-12-20%20204439.png)
+
 In deployment directory you will find docker-compose.yml file.
 
 run docker-compose up -d --build to build the images.
